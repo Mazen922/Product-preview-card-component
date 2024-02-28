@@ -11,6 +11,10 @@
 body {
   font-family: "Cairo", sans-serif;
   background-color: var(--Cream);
+  min-height: 100vh;
+  display: flex;  /* it works with grid too  */
+  justify-content: center;
+  align-items: center;
 }
 main {
   display: flex;
