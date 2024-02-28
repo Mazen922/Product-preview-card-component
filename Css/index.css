@@ -11,13 +11,13 @@
 body {
   font-family: "Cairo", sans-serif;
   background-color: var(--Cream);
-  min-height: 100vh;
-  display: flex;  /* it works with grid too  */
-  justify-content: center;
-  align-items: center;
 }
 main {
   display: flex;
+  min-height: 100vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 /* Start Container Space   */
 .container {
@@ -25,7 +25,6 @@ main {
   flex: 0 1 600px;
   background-color: var(--White);
   border-radius: 15px;
-  margin: 40px auto;
 }
 /* end Container Space   */
 
@@ -35,8 +34,8 @@ main {
   flex-direction: column;
   flex: 0 1 285px;
   align-items: flex-start;
-  margin-left: 15px;
-  justify-content: space-evenly;
+  gap: 15px;
+  padding-left: 20px;
 }
 /* End content Space  */
 
@@ -126,17 +125,18 @@ img {
   .container {
     flex: 0 1 300px;
     flex-direction: column;
-    gap: 10px;
+    margin: 10px 0;
+
     /* margin: 50px auto; */
   }
   /* content space  */
   .content {
-    gap: 30px;
+    gap: 12px;
     /* flex: 0 1 150px; */
-    padding-left: 20px;
   }
   img {
     width: 300px;
+    margin-bottom: 15px;
     border-radius: 15px 15px 0 0;
   }
   .content h1 {
